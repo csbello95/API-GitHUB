@@ -1,0 +1,64 @@
+* {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+img {
+  width: 15rem;
+  border-radius: 5px;
+}
+
+.card{
+  margin: 0.5rem;
+  /* max-width: 30%; */
+  background-color:  #b1bbe3 ;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.repocard{
+  max-width: 25%;
+}
+
+h2{
+  border-bottom: 0.5rem solid  #092080  ;
+}
+
+h5{
+  border-bottom: 0.2rem solid #092080 ;
+  font-size: 1rem;
+}
+
+.repos-cards{
+  margin: 0 auto;
+  max-width: 90%;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 768px) {
+.repos-cards{
+  flex-direction: column;
+} 
+
+.card{
+  max-width: 90%;
+}
+
+.repocard{
+  max-width: 90%;
+}
+
+
+}
